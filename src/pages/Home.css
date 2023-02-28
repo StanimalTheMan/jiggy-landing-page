@@ -1,0 +1,16 @@
+.home {
+  display: flex;
+  text-align: center;
+  height: 90vh;
+}
+
+.card {
+  display: inline-block;
+  margin: auto;
+  padding: 3px;
+}
+
+.card-photo {
+  display: inline-block;
+  margin: auto;
+}
