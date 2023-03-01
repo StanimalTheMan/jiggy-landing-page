@@ -11,6 +11,11 @@
   background-color: #ccc !important;
 }
 
+.card-content {
+  display: inline-block;
+  margin: auto;
+}
+
 .card-photo {
   display: inline-block;
   margin: auto;

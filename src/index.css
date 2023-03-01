@@ -1,5 +1,6 @@
 #root {
   background-color: black;
+  color: white;
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -9,4 +10,11 @@ html,
 body {
   margin: 0;
   padding: 0;
+}
+
+a {
+  color: #fff;
+}
+a:hover {
+  color: #00f;
 }
