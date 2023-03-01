@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jiggy-landing-page/static/css/main.6a2b8a6b.css",
+    "main.js": "/jiggy-landing-page/static/js/main.aa31b298.js",
+    "static/js/787.6606bfd5.chunk.js": "/jiggy-landing-page/static/js/787.6606bfd5.chunk.js",
+    "index.html": "/jiggy-landing-page/index.html",
+    "main.6a2b8a6b.css.map": "/jiggy-landing-page/static/css/main.6a2b8a6b.css.map",
+    "main.aa31b298.js.map": "/jiggy-landing-page/static/js/main.aa31b298.js.map",
+    "787.6606bfd5.chunk.js.map": "/jiggy-landing-page/static/js/787.6606bfd5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a2b8a6b.css",
+    "static/js/main.aa31b298.js"
+  ]
+}
