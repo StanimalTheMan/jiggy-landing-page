@@ -1,4 +1,12 @@
-import { Avatar, Button, Card, CardActions, CardContent } from "@mui/material";
+import {
+  Avatar,
+  Card,
+  CardActions,
+  CardContent,
+  IconButton,
+} from "@mui/material";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import "./Home.css";
 
 const Home = () => {
@@ -9,12 +17,23 @@ const Home = () => {
           <Avatar
             alt="Stan"
             src="/static/stan.jpg"
-            sx={{ width: 150, height: 150 }}
+            sx={{ width: "auto", height: "auto" }}
           />
+          <h4>Email: choi.j.stan@gmail.com</h4>
         </CardContent>
-        <CardActions>
-          <Button size="small">Share</Button>
-          <Button size="small">Learn More</Button>
+        <CardActions className="card-actions">
+          <IconButton
+            onClick={() =>
+              window.open("https://www.linkedin.com/in/stanchoinym/")
+            }
+          >
+            <LinkedInIcon fontSize="large" />
+          </IconButton>
+          <IconButton
+            onClick={() => window.open("https://github.com/StanimalTheMan")}
+          >
+            <GitHubIcon fontSize="large" />
+          </IconButton>
         </CardActions>
       </Card>
     </div>
