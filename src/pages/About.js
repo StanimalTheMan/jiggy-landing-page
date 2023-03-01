@@ -10,7 +10,11 @@ function About() {
         <h2>
           <em>Hobbies</em>
         </h2>
-        <Link to="https://nycsummerbaseball.com/stats/?player=stanchoi">
+        <Link
+          target="_blank"
+          rel="noreferrer"
+          to="https://nycsummerbaseball.com/stats/?player=stanchoi"
+        >
           <Typography variant="h6" component="div">
             <IconButton color="inherit">
               <SportsBaseballIcon fontSize="large" />
@@ -23,7 +27,11 @@ function About() {
         <h2>
           <em>Faith</em>
         </h2>
-        <Link to="https://know-jesus.vercel.app/">
+        <Link
+          target="_blank"
+          rel="noreferrer"
+          to="https://know-jesus.vercel.app/"
+        >
           <IconButton color="inherit">
             <ChurchIcon fontSize="large" />
             Christianity

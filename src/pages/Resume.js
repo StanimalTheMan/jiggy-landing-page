@@ -9,19 +9,35 @@ function Resume() {
       <ul style={{ display: "inline-block" }}>
         <li style={{ textAlign: "left" }}>
           <Typography variant="h6" component="div">
-            <a href="https://rate-mlb-stadium.herokuapp.com/">RateMLBStadium</a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://rate-mlb-stadium.herokuapp.com/"
+            >
+              RateMLBStadium
+            </a>
           </Typography>
         </li>
         <li style={{ textAlign: "left" }}>
           <Typography variant="h6" component="div">
-            <a href="https://elegant-pavlova-3a0829.netlify.app/">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://elegant-pavlova-3a0829.netlify.app/"
+            >
               WhatsAppClone
             </a>
           </Typography>
         </li>
         <li style={{ textAlign: "left" }}>
           <Typography variant="h6" component="div">
-            <a href="https://know-jesus.vercel.app/">KnowJesus</a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://know-jesus.vercel.app/"
+            >
+              KnowJesus
+            </a>
           </Typography>
         </li>
       </ul>
