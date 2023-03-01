@@ -68,6 +68,14 @@ function Resume() {
         <li style={{ textAlign: "left" }}>September 2015 - May 2019</li>
         <li>Bachelors in Computer Science</li>
       </ul>
+      <hr />
+      <h2>
+        <em>Skills</em>
+      </h2>
+      <p>
+        JavaScript/TypeScript, Python, HTML/CSS, Java, React, Express, Docker,
+        AWS, Ruby on Rails, Django, Vue
+      </p>
     </div>
   );
 }
