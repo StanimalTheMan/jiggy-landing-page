@@ -17,7 +17,7 @@ const Home = () => {
           <Avatar
             className="card-photo"
             alt="Stan"
-            src="/static/stan.jpg"
+            src="static/stan.jpg"
             sx={{ width: 150, height: 150 }}
           />
           <p>
