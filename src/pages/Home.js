@@ -27,7 +27,11 @@ const Home = () => {
             opportunies at this time. Feel free to reach me at my email below,
             and/or check out my LinkedIn and GitHub below.
           </p>
-          <h4>Email: choi.j.stan@gmail.com</h4>
+          <h4>
+            <a style={{ color: "black" }} href={`mailto:choi.j.stan@gmail.com`}>
+              choi.j.stan@gmail.com
+            </a>
+          </h4>
         </CardContent>
         <CardActions className="card-actions">
           <IconButton
