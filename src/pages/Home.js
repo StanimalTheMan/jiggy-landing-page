@@ -17,15 +17,15 @@ const Home = () => {
           <Avatar
             className="card-photo"
             alt="Stan"
-            src="static/stan.jpg"
+            src="static/stanimal.jpeg"
             sx={{ width: 150, height: 150 }}
           />
           <p>
             Hello. I'm <strong>Stan</strong>, a Software Engineer who has worked
-            with tools such as React, most recently for a data company, Civis
-            Analytics. I am open to new opportunies at this time. Feel free to
-            reach me at my email below, and/or check out my LinkedIn and GitHub
-            below.
+            with tools such as React, Ruby on Rails, Docker, and AWS most
+            recently for a data company, Civis Analytics. I am open to new
+            opportunies at this time. Feel free to reach me at my email below,
+            and/or check out my LinkedIn and GitHub below.
           </p>
           <h4>Email: choi.j.stan@gmail.com</h4>
         </CardContent>
