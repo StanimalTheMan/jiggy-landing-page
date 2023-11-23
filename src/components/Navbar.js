@@ -1,5 +1,6 @@
 import { AppBar, Box, Button, Toolbar, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
+import resumePDF from "./01_Stan_Resume.pdf";
 
 const Navbar = () => {
   return (
@@ -20,9 +21,14 @@ const Navbar = () => {
           <Link to="/about">
             <Button color="inherit">About</Button>
           </Link>
-          <Link to="/resume">
-            <Button color="inherit">Resume</Button>
-          </Link>
+          <Button
+            color="inherit"
+            href={resumePDF}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Resume
+          </Button>
         </Toolbar>
       </AppBar>
     </Box>
