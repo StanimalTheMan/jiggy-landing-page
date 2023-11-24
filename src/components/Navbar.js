@@ -21,6 +21,9 @@ const Navbar = () => {
           <Link to="/about">
             <Button color="inherit">About</Button>
           </Link>
+          <Link to="/projects">
+            <Button color="inherit">Projects</Button>
+          </Link>
           <Button
             color="inherit"
             href={resumePDF}
